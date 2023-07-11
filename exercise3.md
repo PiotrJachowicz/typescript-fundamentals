@@ -32,8 +32,6 @@ With that, we can add two scripts to our `scripts` section in `package.json`:
 "lint-fix": "eslint --ext js,ts . --fix"
 ```
 
-To test linting, you can now run `npm run lint` and `npm run lint-fix`.
-
 To configure prettier, we need to add another file, `.prettierrc`, with content for example as below:
 ```
 {
@@ -55,5 +53,9 @@ For prettier to work in vscode you need to:
 }
 ```
 
+To test linting, you can now run `npm run lint` and `npm run lint-fix`.
+
 To test if all has been configured correctly, go to the `hello-world.ts` file, add some empty spaces, and save the file -
 it should automatically format and remove the unecessary white spaces.
+
+If you have conflicts between prettier and eslint - try hitting `CMD + SHIFT + P -> Reload Window`.
