@@ -1,0 +1,23 @@
+{
+  "name": "typescript-fundamentals",
+  "version": "1.0.0",
+  "description": "A repository holding code for Typescript Fundamentals course",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/hello-world.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrJachowicz/typescript-fundamentals.git"
+  },
+  "author": "Piotr Jachowicz https://www.linkedin.com/in/piotr-jachowicz/",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiotrJachowicz/typescript-fundamentals/issues"
+  },
+  "homepage": "https://github.com/PiotrJachowicz/typescript-fundamentals#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
