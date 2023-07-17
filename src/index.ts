@@ -15,6 +15,12 @@ const account = {
   monthlyBudget,
 };
 
+// Shorter way:
+// const account = {
+//   name = prompt('Please provide the account name:'),
+//   monthlyBudget = Number(prompt('Please provide the monthly budget for this account:')),
+// };
+
 // Then, use console.log to display the values of the properties
 console.log('The account you have added is:');
 console.log(`Name: ${account.name}`);
