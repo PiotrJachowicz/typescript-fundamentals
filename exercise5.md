@@ -1,7 +1,7 @@
 We will expand on the code from previous example, and add a bit more data to our account creation. We will also
 store the accounts in an array.
 
-First, we will add a new enum - AccountType with two values: DEBIT and CREDIT.
+First, we will add a new enum - `AccountType` with two values: `DEBIT` and `CREDIT`.
 We will ask for the account type from the user in addition to the data we've asked for earlier.
 
 Then we will store the account in an array and ask the user for another account. After this one is also stored in the 
